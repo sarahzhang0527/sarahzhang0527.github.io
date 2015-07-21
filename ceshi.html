@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ceshiToken</title>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+</head>
+<body>
+
+<script type="text/javascript">
+    function sendToken (token) {
+        var token = '{"auth_token":"eb72cfa23bc4f0a705f4957deb4b94c7","refresh_token":"eb48f160ec59799d535e6b7143a221a7","expires_at":1437451426,"success":true,"user":{"id":247,"name":"\u5c0f\u4e03\u4e03\u4e03\u4e03\u4e03\u6211\u6709\u4e00\u4e2a\u5f88\u957f\u975e\u5e38\u957f\u7684\u540d\u5b57\u5927\u5bb6\u5feb\u70b9\u8fc7\u6765\u770b\u554a\u54c8\u54c8\u54c8\u54c8","login":"sa87@admin.com","user_group":"user","phone":"15158117777","space_total":-1,"enterprise_id":57,"space_used":2585872994,"name_first_letter":"X","profile_pic_key":"","company_name":"\u6570\u5b57\u96c6\u56e2","is_new_device_verification_enabled":true,"is_new_device_verification_enabled_by_enterprise":true,"is_active":true,"is_collab_related_functions_restricted":false,"trash_period":45,"is_demo_user":false,"unread_message_count":43,"current_user_type":""}}';
+        window.loader.saveAccessToken(token);
+    }
+</script>
+
+
+<!-- <input id="token" type="text" value="ed1c1b32d844695b4099e47fcfb793e0"> -->
+<!-- <textarea id="token"></textarea> -->
+
+<button onclick="sendToken()">登录</button>
+
+
+</body>
+</html>
